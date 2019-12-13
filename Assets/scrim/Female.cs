@@ -5,7 +5,7 @@ using UnityEngine;
 public class Female : MonoBehaviour
 {
     
-    public float movespeed=5f;
+    public float movespeed=0.01f;
     public Rigidbody2D rb;
     Vector2 movement;
     void Update()
